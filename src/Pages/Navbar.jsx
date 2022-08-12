@@ -1,11 +1,16 @@
 import React ,{useState} from 'react'
-import { Link } from 'react-router-dom'
+import { Link , useNavigate  } from 'react-router-dom'
 import './Navbar.css'
 const Navbar = () => {
+  
   const [isMobile, setIsMobile] =useState(false);
+  const navigate = useNavigate();
+  const navigateHome = () => {
+    navigate('/');
+  };
   return (
     <nav className='navbar'>
-        <h3 className='logo'>Porfolio</h3>
+        <h3 className='logo' onClick={navigateHome} >Porfolio</h3>
         <ul className={isMobile ? "nav-links-mobile": "nav-links"} onClick={()=> setIsMobile(false)}>
             <Link to="/" className="home">
               <li>Home</li>
@@ -15,6 +20,7 @@ const Navbar = () => {
             </Link>
             <Link to="/follow" className="follow">
               <li>Follow</li>
+             
             </Link>
             <Link to="/contact" className="cnt">
               <li>Contact</li>

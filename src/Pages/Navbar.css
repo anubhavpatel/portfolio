@@ -9,11 +9,11 @@ html {
     html { font-size: 10px; }
   }
 
-@media screen and (max-width: 400px) {
-  html { font-size: 7px; }
+@media screen and (max-width: 500px) {
+  html { font-size: 9px; }
   
    .logo{
-    color: blue;
+    color: #ffff00;
      
    }
    .navbar .nav-links{
@@ -27,16 +27,25 @@ html {
     background-color: black;
     left: 0;
     top: 5rem;
-    height: 32rem;
+    padding: 3rem;
      transition:  all 0.5s ease-out; 
     width: 100%;
   }
   .nav-links-mobile .home, .nav-links-mobile .about, .nav-links-mobile .follow, .nav-links-mobile .cnt{
     color: aliceblue;
     text-align: center;
+    font-size: large;
     transition: all .5s ease;
   } 
- 
+  .nav-links-mobile .home:hover, .nav-links-mobile .about:hover, .nav-links-mobile .follow:hover{
+  color: yellow;
+  }
+  .nav-links-mobile .cnt:hover{
+    color: #ffff00;
+    border: none;
+    outline: none;
+    background-color: black;
+  }
   .navbar .cnt{
     border: none;
   }
@@ -45,7 +54,7 @@ html {
     position: absolute;
     font-size: 2rem;
     color: aliceblue;
-    background-color: rgb(31, 36, 36);
+    background-color: black;
     border: none;
     outline: none;
     top: 1rem;
@@ -61,14 +70,16 @@ html {
 .logo{
     font-size: 2rem;
     margin-left: 3rem;
+    color: #ffff00;
+    cursor: pointer;
 }
 .navbar{
     min-height: 5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(31, 36, 36);
-    color: wheat;
+    background-color: black;
+    color: white;
 }
 .nav-links{
   display: flex;
@@ -79,15 +90,25 @@ html {
 }
 .home , .cnt, .follow, .about{
     text-decoration: none;
-    color: wheat;
+    color: white;
     padding: .5rem .8rem;
     font-size: 1rem;
     margin:  .8rem 1rem;
     cursor: pointer;
+    font-size: 1rem;
+}
+.home:hover, .follow:hover, .about:hover{
+  color: #ffff00;
+}
+.cnt:hover{
+  background-color: #dddd3d;
+}
+.cnt:hover{
+  color: black;
 }
 .cnt{
-    border: .1rem solid rebeccapurple;
-    border-radius: .5rem;
+    border: .1rem solid #ffff00;
+    border-radius: .4rem;
 }
 .mobile-menu-btn{
     display: none;
