@@ -1,0 +1,94 @@
+
+html {
+    font-size: 17px;
+  }
+  @media (max-width: 900px) {
+    html { font-size: 15px; }
+  }
+  @media (max-width: 650px) {
+    html { font-size: 10px; }
+  }
+
+@media screen and (max-width: 400px) {
+  html { font-size: 7px; }
+  
+   .logo{
+    color: blue;
+     
+   }
+   .navbar .nav-links{
+    display: none;
+}
+ 
+  .nav-links-mobile{
+    position: absolute;
+   display: block;
+    list-style: none;
+    background-color: black;
+    left: 0;
+    top: 5rem;
+    height: 32rem;
+     transition:  all 0.5s ease-out; 
+    width: 100%;
+  }
+  .nav-links-mobile .home, .nav-links-mobile .about, .nav-links-mobile .follow, .nav-links-mobile .cnt{
+    color: aliceblue;
+    text-align: center;
+    transition: all .5s ease;
+  } 
+ 
+  .navbar .cnt{
+    border: none;
+  }
+  .navbar .mobile-menu-btn {
+    display: block;
+    position: absolute;
+    font-size: 2rem;
+    color: aliceblue;
+    background-color: rgb(31, 36, 36);
+    border: none;
+    outline: none;
+    top: 1rem;
+    right: 2rem;
+  } 
+  
+}
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+.logo{
+    font-size: 2rem;
+    margin-left: 3rem;
+}
+.navbar{
+    min-height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(31, 36, 36);
+    color: wheat;
+}
+.nav-links{
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+
+  width: 55%;
+}
+.home , .cnt, .follow, .about{
+    text-decoration: none;
+    color: wheat;
+    padding: .5rem .8rem;
+    font-size: 1rem;
+    margin:  .8rem 1rem;
+    cursor: pointer;
+}
+.cnt{
+    border: .1rem solid rebeccapurple;
+    border-radius: .5rem;
+}
+.mobile-menu-btn{
+    display: none;
+}
