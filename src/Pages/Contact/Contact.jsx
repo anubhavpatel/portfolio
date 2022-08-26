@@ -1,0 +1,33 @@
+import React from 'react'
+import './Contact.css'
+const Contact = () => {
+  return (
+    <div className='page-container-contact'>
+     <div className='left'>
+     <h1>Get in Touch</h1><hr/>
+     <h5>Phone:<a href="" > +916391857675</a></h5>
+     <p>Email: <a href="">anubhavpatel6391@gmail.com</a></p>
+     </div>
+     <div className='right'>
+
+<div class="msg">
+  <form >
+    <label > Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.."/>
+    <label >Email</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your email.."/>
+  
+    
+    <label for="subject">Message</label>
+    <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+
+    <input type="submit" value="Send"/>
+  </form>
+</div>
+
+     </div>
+    </div>
+  )
+}
+
+export default Contact

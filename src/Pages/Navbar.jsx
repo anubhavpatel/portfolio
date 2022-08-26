@@ -18,10 +18,20 @@ const Navbar = () => {
             <Link to="/about" className="about">
               <li>About</li>
             </Link>
-            <Link to="/follow" className="follow">
+            
+            
+            {/* <Link to="/follow" className="follow">
               <li>Follow</li>
-             
-            </Link>
+  
+              <ul class="dropdown">
+             <li><a href="https://www.instagram.com/anubhav_patel221/"> Instagram </a></li>
+             <li><a href=""> Facebook</a></li>
+             <li><a href="">Linkedin</a></li>
+             <li><a href=""> Github</a></li>
+             <li><a href="">rhn do</a></li>
+           </ul>
+
+            </Link> */}
             <Link to="/contact" className="cnt">
               <li>Contact</li>
             </Link>

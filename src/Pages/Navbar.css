@@ -11,7 +11,8 @@ html {
 
 @media screen and (max-width: 500px) {
   html { font-size: 9px; }
-  
+
+
    .logo{
     color: #ffff00;
      
@@ -24,15 +25,15 @@ html {
     position: absolute;
    display: block;
     list-style: none;
-    background-color: black;
+    background-color: #00010e;
     left: 0;
     top: 5rem;
     padding: 3rem;
-     transition:  all 0.5s ease-out; 
+     transition:  all 8s ease-out; 
     width: 100%;
   }
   .nav-links-mobile .home, .nav-links-mobile .about, .nav-links-mobile .follow, .nav-links-mobile .cnt{
-    color: aliceblue;
+    color: white;
     text-align: center;
     font-size: large;
     transition: all .5s ease;
@@ -40,7 +41,7 @@ html {
   .nav-links-mobile .home:hover, .nav-links-mobile .about:hover, .nav-links-mobile .follow:hover{
   color: yellow;
   }
-  .nav-links-mobile .cnt:hover{
+  .nav-links-mobile:hover .cnt:hover{
     color: #ffff00;
     border: none;
     outline: none;
@@ -74,11 +75,14 @@ html {
     cursor: pointer;
 }
 .navbar{
+  background-color: #00010e;
     min-height: 5rem;
     display: flex;
+    
+    min-width: 100%;
     align-items: center;
     justify-content: space-between;
-    background-color: black;
+
     color: white;
 }
 .nav-links{
@@ -109,7 +113,39 @@ html {
 .cnt{
     border: .1rem solid #ffff00;
     border-radius: .4rem;
+    transition-duration: .6s;
 }
 .mobile-menu-btn{
     display: none;
 }
+
+.dropdown {
+  background-color: rgb(125, 145, 145);
+  padding: 1em 0;
+  position: absolute; /*WITH RESPECT TO PARENT*/
+  display: none;
+  border-radius: 8px;
+  top: 3.2rem;
+  right: 6.5rem;
+  list-style-type: none;
+  
+ }
+ .dropdown li + li {
+  margin-top: 10px;
+  
+ }
+ .dropdown li a{
+  text-decoration: none;
+ }
+ .dropdown li {
+  padding: 0.5em 1em;
+  width: 8em;
+
+  text-align: center;
+ }
+ .dropdown li:hover {
+  background-color: #4c9e9e;
+ }
+ .follow:hover .dropdown{
+  display: block;
+ }

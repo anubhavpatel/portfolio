@@ -2,7 +2,7 @@ import React from 'react'
 
 const Follow = () => {
   return (
-    <div>Follow</div>
+    <div className='page-container'>Follow</div>
   )
 }
 

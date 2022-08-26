@@ -1,0 +1,142 @@
+
+html {
+    font-size: 17px;
+  }
+  @media (max-width: 900px) {
+    html { font-size: 15px; }
+    
+  
+  }
+  @media (max-width: 650px) {
+    html { font-size: 10px; }
+    
+  }
+@media screen and (max-width: 500px) {
+  html { font-size: 9px; }
+  .page-container-home{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+    
+  }
+  .page-container-2{
+    margin-top: -13rem;
+  }
+  .page-container-home .page-container-1, .page-container-home .page-container-2{
+    width: 100%;
+  }
+}
+
+.page-container-home{
+     margin-top: -4rem;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00010e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.page-container-1 h2 , h1{
+    color: white;
+   margin-left: 3rem;
+   
+}
+.page-container-1 .wel{
+  font-size: 4rem;
+  font-weight: 10;
+  font-family: 'Times New Roman', Times, serif;
+  
+
+}
+
+.page-container-1 p{
+   color: white;
+   margin-top: .4rem;
+   margin-left: 3rem;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: .9rem;
+}
+.page-container-1{
+        width: 50%;
+        height: 70vh;
+        float: left;
+        border-radius: 1rem;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+        
+}
+.page-container-2{
+    background-color: #00010e;
+    width: 50%;
+    height: 70vh;
+    float: right;
+    border-radius: 1rem;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+.cv{
+  background-color: #00010e;
+  border: .1rem solid  #ffff00;
+  border-radius: .4rem;
+  width: 20%;
+   padding: .7em;
+  
+
+
+  margin-top: 2rem;
+  margin-left: 3rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  transition-duration: .6s;
+ 
+}
+.cv:hover{
+  background-color: #ffff00;
+ color: black;
+ transform: translateY(-2px);
+}
+.follow{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+a.social {
+  margin: 0 .5rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+a.social:hover {
+  transform: translateY(-2px);
+ 
+}
+a.youtube {
+  color: #eb3223;
+}
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: white;
+}
+.home-logo{
+  height: 30rem;
+  width: 30rem;
+  
+}
