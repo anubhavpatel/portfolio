@@ -1,151 +1,151 @@
 
 html {
-    font-size: 17px;
-  }
-  @media (max-width: 900px) {
-    html { font-size: 15px; }
-  }
-  @media (max-width: 650px) {
-    html { font-size: 10px; }
-  }
+  font-size: 17px;
+}
+@media (max-width: 900px) {
+  html { font-size: 15px; }
+}
+@media (max-width: 650px) {
+  html { font-size: 10px; }
+}
 
 @media screen and (max-width: 500px) {
-  html { font-size: 9px; }
+html { font-size: 9px; }
 
 
-   .logo{
-    color: #ffff00;
-     
-   }
-   .navbar .nav-links{
-    display: none;
+ .logo{
+  color: #ffff00;
+   
+ }
+ .navbar .nav-links{
+  display: none;
 }
- 
-  .nav-links-mobile{
-    position: absolute;
-   display: block;
-    list-style: none;
-    background-color: #121ca1;
-    left: 0;
-    top: 5rem;
-    padding: 3rem;
-     transition:  all 8s ease-out; 
-    width: 100%;
-  }
-  .nav-links-mobile .home, .nav-links-mobile .about, .nav-links-mobile .follow, .nav-links-mobile .cnt{
-    color: white;
-    text-align: center;
-    font-size: large;
-    transition: all .5s ease;
-  } 
-  .nav-links-mobile .home:hover, .nav-links-mobile .about:hover, .nav-links-mobile .follow:hover{
-  color: yellow;
-  }
-  .nav-links-mobile:hover .cnt:hover{
-    color: #ffff00;
-    border: none;
-    outline: none;
-    background-color: black;
-  }
-  .navbar .cnt{
-    border: none;
-  }
-  .navbar .mobile-menu-btn {
-    display: block;
-    position: absolute;
-    font-size: 2rem;
-    color: aliceblue;
-    background-color: rgb(160, 34, 34);
-    border: none;
-    outline: none;
-    top: 1rem;
-    right: 2rem;
-  } 
-  
+
+.nav-links-mobile{
+  position: absolute;
+ display: block;
+  list-style: none;
+  background-color: #00010e;
+  left: 0;
+  top: 5rem;
+  padding: 3rem;
+   transition:  all 8s ease-out; 
+  width: 100%;
+}
+.nav-links-mobile .home, .nav-links-mobile .about, .nav-links-mobile .follow, .nav-links-mobile .cnt{
+  color: white;
+  text-align: center;
+  font-size: large;
+  transition: all .5s ease;
+} 
+.nav-links-mobile .home:hover, .nav-links-mobile .about:hover, .nav-links-mobile .follow:hover{
+color: yellow;
+}
+.nav-links-mobile:hover .cnt:hover{
+  color: #ffff00;
+  border: none;
+  outline: none;
+  background-color: black;
+}
+.navbar .cnt{
+  border: none;
+}
+.navbar .mobile-menu-btn {
+  display: block;
+  position: absolute;
+  font-size: 2rem;
+  color: aliceblue;
+  background-color: #00010e;
+  border: none;
+  outline: none;
+  top: 1rem;
+  right: 2rem;
+} 
+
 }
 *{
-    margin: 0rem;
-    padding: 0rem;
-    box-sizing: border-box;
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
 }
 .logo{
-    font-size: 2rem;
-    margin-left: 3rem;
-    color: #ffff00;
-    cursor: pointer;
+  font-size: 2rem;
+  margin-left: 3rem;
+  color: #ffff00;
+  cursor: pointer;
 }
 .navbar{
-  background-color: #5a5c79;
-    min-height: 4rem;
-    display: flex;
-   
-    min-width: 100%;
-    align-items: center;
-    justify-content: space-between;
+background-color: #00010e;
+  min-height: 6rem;
+  display: flex;
+ 
+  min-width: 100%;
+  align-items: center;
+  justify-content: space-between;
 
-    color: white;
+  color: white;
 }
 .nav-links{
-  display: flex;
-  list-style: none;
-  justify-content: flex-end;
+display: flex;
+list-style: none;
+justify-content: flex-end;
 
-  width: 55%;
+width: 55%;
 }
 .home , .cnt, .follow, .about{
-    text-decoration: none;
-    color: white;
-    padding: .5rem .8rem;
-    font-size: 1rem;
-    margin:  .8rem 1rem;
-    cursor: pointer;
-    font-size: 1rem;
+  text-decoration: none;
+  color: white;
+  padding: .5rem .8rem;
+  font-size: 1rem;
+  margin:  .8rem 1rem;
+  cursor: pointer;
+  font-size: 1rem;
 }
 .home:hover, .follow:hover, .about:hover{
-  color: #ffff00;
+color: #ffff00;
 }
 .cnt:hover{
-  background-color: #dddd3d;
+background-color: #dddd3d;
 }
 .cnt:hover{
-  color: black;
+color: black;
 }
 .cnt{
-    border: .1rem solid #ffff00;
-    border-radius: .4rem;
-    transition-duration: .6s;
+  border: .1rem solid #ffff00;
+  border-radius: .4rem;
+  transition-duration: .6s;
 }
 .mobile-menu-btn{
-    display: none;
+  display: none;
 }
 
 .dropdown {
-  background-color: rgb(125, 145, 145);
-  padding: 1em 0;
-  position: absolute; /*WITH RESPECT TO PARENT*/
-  display: none;
-  border-radius: 8px;
-  top: 3.2rem;
-  right: 6.5rem;
-  list-style-type: none;
-  
- }
- .dropdown li + li {
-  margin-top: 10px;
-  
- }
- .dropdown li a{
-  text-decoration: none;
- }
- .dropdown li {
-  padding: 0.5em 1em;
-  width: 8em;
+background-color: rgb(125, 145, 145);
+padding: 1em 0;
+position: absolute; /*WITH RESPECT TO PARENT*/
+display: none;
+border-radius: 8px;
+top: 3.2rem;
+right: 6.5rem;
+list-style-type: none;
 
-  text-align: center;
- }
- .dropdown li:hover {
-  background-color: #4c9e9e;
- }
- .follow:hover .dropdown{
-  display: block;
- }
+}
+.dropdown li + li {
+margin-top: 10px;
+
+}
+.dropdown li a{
+text-decoration: none;
+}
+.dropdown li {
+padding: 0.5em 1em;
+width: 8em;
+
+text-align: center;
+}
+.dropdown li:hover {
+background-color: #4c9e9e;
+}
+.follow:hover .dropdown{
+display: block;
+}

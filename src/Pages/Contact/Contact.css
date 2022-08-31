@@ -1,118 +1,118 @@
 html {
-      font-size: 17px;
-    }
-    @media (max-width: 900px) {
-      html { font-size: 15px; }
-    
-    }
-    @media (max-width: 700px) {
-      html { font-size: 10px; }
-      .right .msg{
-        margin: 1rem;
-     }
-    }
-  @media screen and (max-width: 500px) {
-    html { font-size: 9px; }
-   .page-container-contact{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-   }
-   .right .msg{
-      margin: 0rem;
-   }
-  }
-  .page-container-contact{
-      padding-bottom: 2rem;
-     display: flex;
-    
-  }
-  body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
-.left{
+  font-size: 17px;
+}
+@media (max-width: 900px) {
+  html { font-size: 15px; }
 
- 
- float: left;
- border-radius: 1rem;
+}
+@media (max-width: 700px) {
+  html { font-size: 10px; }
+  .right .msg{
+    margin: 1rem;
+ }
+}
+@media screen and (max-width: 500px) {
+html { font-size: 9px; }
+.page-container-contact{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 3rem;
+  align-items: center;
+}
+.right .msg{
+  margin: 0rem;
+}
+}
+.page-container-contact{
+  padding-bottom: 2rem;
+ display: flex;
+
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+.left{
+
+
+float: left;
+border-radius: 1rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 3rem;
 }
 .left h1, h4{
-      color: white;
-      
+  color: white;
+  
 }
 .left h5{
-      margin-top: 2.5rem;
+  margin-top: 2.5rem;
 }
 .left p{
-  margin-top: .5rem;
+margin-top: .5rem;
 }
 .left h5, p{
-  color: #ffff00;
+color: #ffff00;
 }
 .left h5 a , p a{
-  color: aliceblue;
-  text-decoration: none;
+color: aliceblue;
+text-decoration: none;
 }
 .right{
+
   
-      
-      float: right;
-      border-radius: 1rem;
-      width: 60%;
-      margin-left: 3rem;
-     
+  float: right;
+  border-radius: 1rem;
+  width: 60%;
+  margin-left: 3rem;
+ 
 }
 
 .right form{
-      display: flex;
-      flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .right form input[type=text], textarea {
-            width: 100%;
-            padding: .7rem;
-            border: .1rem solid rgb(51, 13, 13);
-            border-radius: 4px;
-            box-sizing: border-box;
-            margin-top: .4rem;
-            margin-bottom: 1.4rem;
-           
-             resize: vertical;
-          }
-      .right form label{
-            color: white;
-          }
-         
+        width: 100%;
+        padding: .7rem;
+        border: .1rem solid rgb(51, 13, 13);
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: .4rem;
+        margin-bottom: 1.4rem;
+       
+         resize: vertical;
+      }
+  .right form label{
+        color: white;
+      }
+     
 input[type=submit] {
-      background-color: #00010e;
-      color: white;
-      padding: 1rem 1.4rem;
-      border: .1rem solid #ffff00;
-      border-radius: 4px;
-      cursor: pointer;
-     font-size: 1.2rem;
-    }
-    input[type=submit] {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 25%;
-      transition-duration: .6s;
-    }
-    input[type=submit]:hover {
-      background-color: #ffff00;
-      color: black;
-      transform: translateY(-2px);
-      
-    }
-    
-    .msg {
-     margin: 2rem 4rem 0rem 4rem ;
-      border-radius: 5px;
-      background-color: #00010e;
-      padding: 1.5rem;
-      box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
-    }
+  background-color: #00010e;
+  color: white;
+  padding: 1rem 1.4rem;
+  border: .1rem solid #ffff00;
+  border-radius: 4px;
+  cursor: pointer;
+ font-size: 1.2rem;
+}
+input[type=submit] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  transition-duration: .6s;
+}
+input[type=submit]:hover {
+  background-color: #ffff00;
+  color: black;
+  transform: translateY(-2px);
+  
+}
+
+.msg {
+ margin: 2rem 4rem 0rem 4rem ;
+  border-radius: 5px;
+  background-color: #00010e;
+  padding: 1.5rem;
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}

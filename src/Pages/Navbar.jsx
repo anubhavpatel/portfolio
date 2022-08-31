@@ -10,7 +10,7 @@ const Navbar = () => {
     navigate('/');
   };
   const navigateContact =()=> {
-    navigate('/cnt');
+    navigate('/contact');
   };
 
   

@@ -15,7 +15,6 @@ import { Zoom } from 'react-reveal'
 
 const Home = () => {
   return (
-    
     <div className='page-container-home'>
     <div className='page-container-1'>
       <h1 className='wel'>Welcome</h1>
@@ -61,9 +60,7 @@ const Home = () => {
     <div className="page-container-2">
        <img  src={home}className='home-logo'/>
     </div></Zoom>
-     
     </div>
- 
   )
 }
 

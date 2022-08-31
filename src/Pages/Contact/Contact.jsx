@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div className='page-container-contact'>
      <div className='left'>
-     <h1>Get in Touch</h1><hr/>
+     <h1>Get in Touch</h1><hr style={{width:"20rem"}}/>
      <h5>Phone:<a href="" > +916391857675</a></h5>
      <p>Email: <a href="">anubhavpatel6391@gmail.com</a></p>
      </div>
