@@ -24,7 +24,7 @@ html {
    }
   }
   .page-container-contact{
-   height: 140vh;
+      padding-bottom: 2rem;
      display: flex;
     
   }
@@ -32,7 +32,7 @@ html {
 * {box-sizing: border-box;}
 .left{
 
- margin-top: 7rem;
+ 
  float: left;
  border-radius: 1rem;
   display: flex;
@@ -59,7 +59,7 @@ html {
 }
 .right{
   
-      margin-top: 7rem;
+      
       float: right;
       border-radius: 1rem;
       width: 60%;

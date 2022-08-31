@@ -1,5 +1,6 @@
 import React ,{useState} from 'react'
 import { Link , useNavigate  } from 'react-router-dom'
+import Contact from './Contact/Contact';
 import './Navbar.css'
 const Navbar = () => {
   
@@ -8,6 +9,11 @@ const Navbar = () => {
   const navigateHome = () => {
     navigate('/');
   };
+  const navigateContact =()=> {
+    navigate('/cnt');
+  };
+
+  
   return (
     <nav className='navbar'>
         <h3 className='logo' onClick={navigateHome} >Porfolio</h3>
@@ -15,7 +21,7 @@ const Navbar = () => {
             <Link to="/" className="home">
               <li>Home</li>
             </Link>
-            <Link to="/about" className="about">
+            <Link to="/about" className="about" >
               <li>About</li>
             </Link>
             
@@ -32,7 +38,7 @@ const Navbar = () => {
            </ul>
 
             </Link> */}
-            <Link to="/contact" className="cnt">
+            <Link to="contact" className="cnt" onClick={navigateContact}>
               <li>Contact</li>
             </Link>
         </ul>

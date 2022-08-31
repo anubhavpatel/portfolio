@@ -5,8 +5,8 @@ html {
   @media (max-width: 900px) {
     html { font-size: 15px; }
     
-  
   }
+ 
   @media (max-width: 650px) {
     html { font-size: 10px; }
     
@@ -19,18 +19,14 @@ html {
     padding-top: 5rem;
     
   }
-  .page-container-2{
-    margin-top: -13rem;
-  }
+ 
   .page-container-home .page-container-1, .page-container-home .page-container-2{
     width: 100%;
   }
 }
 
 .page-container-home{
-     margin-top: -4rem;
-    width: 100vw;
-    height: 100vh;
+   
     background-color: #00010e;
     display: flex;
     justify-content: center;
@@ -84,10 +80,10 @@ html {
   border: .1rem solid  #ffff00;
   border-radius: .4rem;
   width: 20%;
-   padding: .7em;
-  
-
-
+   
+  text-decoration: none;
+  text-align: center;
+   padding: .4rem;
   margin-top: 2rem;
   margin-left: 3rem;
   color: white;
@@ -97,6 +93,11 @@ html {
   font-size: 1rem;
   transition-duration: .6s;
  
+}
+
+.page-container-1 p a button{
+  text-decoration: none;
+  font-size: 44rem;
 }
 .cv:hover{
   background-color: #ffff00;
@@ -137,6 +138,6 @@ a.instagram {
 }
 .home-logo{
   height: 30rem;
-  width: 30rem;
-  
+  width: 25rem;
+  margin-top: 4rem;
 }

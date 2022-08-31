@@ -25,7 +25,7 @@ html {
     position: absolute;
    display: block;
     list-style: none;
-    background-color: #00010e;
+    background-color: #121ca1;
     left: 0;
     top: 5rem;
     padding: 3rem;
@@ -55,7 +55,7 @@ html {
     position: absolute;
     font-size: 2rem;
     color: aliceblue;
-    background-color: black;
+    background-color: rgb(160, 34, 34);
     border: none;
     outline: none;
     top: 1rem;
@@ -75,10 +75,10 @@ html {
     cursor: pointer;
 }
 .navbar{
-  background-color: #00010e;
-    min-height: 5rem;
+  background-color: #5a5c79;
+    min-height: 4rem;
     display: flex;
-    
+   
     min-width: 100%;
     align-items: center;
     justify-content: space-between;

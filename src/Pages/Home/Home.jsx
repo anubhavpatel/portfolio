@@ -2,6 +2,7 @@ import React from 'react'
 import './Home.css'
 import Typical from 'react-typical'
 import home from '../../assests/home-main.svg'
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import Wobble from 'react-reveal/Wobble';
 import {
@@ -11,11 +12,13 @@ import {
   faInstagram
 } from "@fortawesome/free-brands-svg-icons"
 import { Zoom } from 'react-reveal'
+
 const Home = () => {
   return (
+    
     <div className='page-container-home'>
     <div className='page-container-1'>
-      <Wobble><h1 className='wel'>Welcome</h1></Wobble>
+      <h1 className='wel'>Welcome</h1>
     {/* <h2>{ ' '}
     
     <Typical 
@@ -29,7 +32,13 @@ const Home = () => {
     </h2> */}
     <p>My name is Anubhav Patel,I'm a front-end developer. I hava developed many types of front-ends from well known.<br/><br/>
         I'm passionate about cutting-edge, pixels-perfect, beautifull interfaces and intuitively implemented UX</p>
-      <input type='submit' className='cv' value='Download CV'/>
+        <a className='cv'
+        href={home}
+        download="cv"
+      >
+      Resume
+      </a>
+      
       <div className='follow'>
       <a  href="https://www.youtube.com/c/jamesqquick"  
         className="youtube social">
@@ -48,11 +57,13 @@ const Home = () => {
       </a>
       </div>
     </div>
-   <Zoom  >
+   <Zoom  top>
     <div className="page-container-2">
-       <img src={home} className='home-logo' />
+       <img  src={home}className='home-logo'/>
     </div></Zoom>
+     
     </div>
+ 
   )
 }
 
