@@ -6,7 +6,7 @@ const Contact = () => {
      <div className='left'>
      <h1>Get in Touch</h1><hr style={{width:"20rem"}}/>
      <h5>Phone:<a href="" > +916391857675</a></h5>
-     <p>Email: <a href="">anubhavpatel6391@gmail.com</a></p>
+     <p>Email: <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=anubhavpatel6391@gmail.com"  target="_blank">anubhavpatel6391@gmail.com</a></p>
      </div>
      <div className='right'>
 

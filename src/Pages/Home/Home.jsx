@@ -39,18 +39,18 @@ const Home = () => {
       </a>
       
       <div className='follow'>
-      <a  href="https://www.youtube.com/c/jamesqquick"  
+      <a  href="https://www.youtube.com/c/jamesqquick"    target="_blank"
         className="youtube social">
         <FontAwesomeIcon icon={faYoutube} size="1x" />
       </a>
-      <a href="https://www.facebook.com/learnbuildteach/"
+      <a href="https://www.facebook.com/learnbuildteach/"  target="_blank"
         className="facebook social">
         <FontAwesomeIcon icon={faFacebook} size="1x" />
       </a>
-      <a href="https://www.twitter.com/jamesqquick" className="twitter social">
+      <a href="https://www.twitter.com/jamesqquick" className="twitter social"  target="_blank">
         <FontAwesomeIcon icon={faTwitter} size="1x" />
       </a>
-      <a href="https://www.instagram.com/anubhav_patel221/" target='blank'
+      <a href="https://www.instagram.com/anubhav_patel221/"  target="_blank"
         className="instagram social">
         <FontAwesomeIcon icon={faInstagram} size="1x" />
       </a>
