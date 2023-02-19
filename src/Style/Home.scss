@@ -4,7 +4,7 @@
     display: flex;
    align-items: center;
   
-   
+
  >.content{
     margin-left: 2rem;
     font-weight: 100;
@@ -30,7 +30,14 @@
        }
      }
 }
-
+   > .resume {
+      
+      >button{
+        
+         background-color: rgb(49, 56, 56);
+      }
+   }
+  
 }
 .home-hr{
   > hr{
