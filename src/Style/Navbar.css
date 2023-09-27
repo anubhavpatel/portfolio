@@ -1,0 +1,163 @@
+.main-nav{
+    /* box-shadow: 0px 12px 28px 0px rgba(140, 149, 159, 0.3); */
+   
+    width: 100%;
+    height: 7rem;
+display: grid;
+grid-template-columns: 10rem 1fr 2fr 1fr 10rem;
+ background: linear-gradient(145deg,#0b0c0c,#060606,#424242);
+
+}
+.logo{
+    display: grid;
+    font-family: 'Abel', sans-serif;
+    grid-column: 2/3;
+    justify-content: start;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+}
+
+.menu {
+    grid: 3/4;
+    display: flex;
+   list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Abel', sans-serif;
+
+    
+}
+.menu .homelink{
+    text-decoration: none;
+
+    color: rgb(255, 255, 255);
+}
+.menu .menu-cancel{
+    display: none;
+    
+   
+}
+a:link{
+    text-decoration: none;
+}
+.social-link{
+    grid-column: 4/5;
+}
+.social-link ul{
+    height: 7rem;
+    display: grid;
+   grid-template-columns: 3fr repeat(3,1fr);
+   align-items: center;
+   list-style-type: none;
+   justify-content: flex-end;
+}
+
+.instagram{
+   color: rgb(249, 8, 8);
+    }
+    .github{
+        color: rgb(255, 255, 255);
+    }
+    .linkedin{
+        color: #0072b1;
+    }
+.social-link ul li{
+    text-align: right;
+}
+.social-link ul li:first-child{
+grid-column: 2/3;
+}
+.menu-icon{
+    display: none;
+   
+    
+}
+.menu-icon .menu-btn{
+    color: rgb(255, 255, 255);
+}
+
+ .resume button{
+    transition-duration: 0.4s;
+    padding: .3rem .5rem;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+ }
+ .resume button:hover{
+   
+        background-color: rgb(255, 255, 255);
+        
+        color: rgb(0, 0, 0);
+  
+ }
+
+@media (max-width: 1080px){
+.main-nav{
+    height: 5rem;
+    grid-template-columns: 2rem 2fr 2fr 1fr 2rem;
+}
+.logo , .menu ul, .social-link ul{
+    height: 5rem;
+}
+}
+@media (max-width: 830px){
+    .main-nav{
+        height: 5rem;
+        grid-template-columns: 2rem 1.5fr 3fr 1.5fr 2rem;
+    }
+    .logo , .menu ul, .social-link ul{
+        height: 5rem;
+    }
+    }
+    @media (max-width: 730px){
+       .menu{
+        display: none;
+       }
+       .social-link{
+        height: 0;
+        display: none;
+       }
+       .main-nav{
+        display: grid;
+        grid-template-columns: 2rem 1fr 4rem;
+       }
+       .menu-icon{
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid: 4/5;
+       }
+       .menu-mobile{
+        z-index: 1;
+        align-items: center;
+        position: absolute;
+        display: flex;
+        height: 60%;
+        list-style-type: none;
+        background-color: #1e1e1e;
+      
+        flex-direction: column;
+        top: 5rem;
+        width: 100%;
+        
+         
+      }
+      .menu-mobile .homelink{
+         text-decoration: none;
+         color: rgb(255, 255, 255);
+         margin-top: 2rem;
+      }
+      .resume{
+        margin-top: 2rem;
+      }
+      .menu-cancel{
+        color: rgb(255, 255, 255);
+        margin-top: 2rem;
+      }
+
+        }

@@ -1,0 +1,112 @@
+.home-container{
+     
+        background: linear-gradient(145deg,#1c1b1b,#0c0c0c,#000000);
+      display: flex;
+      flex-direction: column;
+      }
+     
+    .home1{ 
+     margin-top: 5rem;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      
+    }
+    .home1 h1{
+     
+      font-family: 'play', sans-serif; 
+      font-size: 5rem;
+      line-height: 80%;
+      color: white;
+    
+    }
+    .home1 p{
+      font-size: .8rem;
+    }
+    .home2{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      height: 15rem;
+      align-items: center;
+     
+    }
+    .home2 .social-link-mobile{
+    visibility: hidden;
+      display: flex;
+      width: 30%;
+      justify-content: space-around;
+    }
+   
+    .home2 .scroll_down{
+      height: 5rem;
+      width: 5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   
+        animation: MoveUpDown 1s linear infinite;
+
+    }   
+    @keyframes MoveUpDown {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-20px);
+      }
+    }
+    .home2 .scroll_down button{
+      background-color: rgb(0, 0, 0);
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      border: 1.5px solid white;
+      cursor: pointer;
+    }
+
+    @media (max-width: 1280px) {
+     
+      .home1 h1{
+        font-size: 4rem;
+      
+      }
+      .home1 p{
+        font-size: .6rem;
+      }
+    }
+    @media (max-width: 730px){
+      .home1 h1{
+        font-size: 3rem;
+        margin-right: 3rem;
+      
+      }
+      .home1 p{
+        font-size: .5rem;
+      }
+      .home2 .social-link-mobile{
+        visibility: visible;
+      }
+    }
+    @media (max-width: 480px){
+      .home1 h1{
+        
+        font-size: 2rem;
+        margin-right: 5rem;
+      }
+      .home1 p{
+        font-size: .4rem;
+      }
+      .home1 .dev_text h1 {
+        margin-right: 7rem;
+      }
+      .home2 .scroll_down{
+        height: 4rem;
+        width: 4rem; 
+        
+      }
+      
+    }
