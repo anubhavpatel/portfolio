@@ -2,24 +2,27 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background: linear-gradient(145deg,#0b0c0c,#060606,#424242);
+    height: 5rem;
+    color: white;
    > a button{
-    font-family: monospace;
-    padding: .3rem;
-    border: 1px solid black;
+    font-family: 'Abel', sans-serif;
+    padding: .2rem .4rem .2rem .4rem;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: black;
     border-radius: 3px;
+    color: white;
     cursor: pointer;
+    
     &:hover{
         background-color: rgb(218, 218, 218);
+        color: black;
       }
    }
 }
-hr{
-    margin-bottom: 2rem;
-    }
+
     @media screen and (max-width: 700px){
-        hr{
-            margin-bottom: 1rem;
-            }
+       
             .footer{
                 > a  button{
                         font-size: .6rem;

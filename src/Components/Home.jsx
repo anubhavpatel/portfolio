@@ -2,9 +2,10 @@ import React from "react";
 import pic from "../assests/pic.jpg";
 import "../Style/Home.css"
 import Projects from "./Projects";
-import {BsArrowDown} from "react-icons/bs"
+import {BsArrowDown, BsHexagon} from "react-icons/bs"
 import {AiFillGithub, AiFillLinkedin} from "react-icons/ai"
 import {FaFacebook,FaInstagram,FaYoutube} from "react-icons/fa"
+import HexBack from "./HexBack";
 
 const Home = () => {
   const scrollToTop = () =>{
@@ -16,51 +17,9 @@ const Home = () => {
   };
   return (
     <>
-      {/* <div className="home">
-        <div className="pic">
-          <img
-            style={{ width: "7rem", height: "7rem", borderRadius: "50%" }}
-            src={pic}
-            alt="pic"
-          ></img>
-        </div>
-        <div className="content">
-          <div className="content-a">
-            <p>
-              Hey, I'm <span>Anubhav Patel</span>.I am a Front-End Web
-              developer.
-            </p>
-          </div>
-          <div className="social">
-            <a href="https://github.com/anubhavpatel" target="blank">
-              Github
-            </a>
-            <a
-              href="https://www.linkedin.com/in/anubhavpatel063/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Linkedin
-            </a>
-            <a href="https://www.instagram.com/anubhav._patel/" target="blank">
-              Instagram
-            </a>
-            <a
-              href="https://www.facebook.com/anubhav.patel.71465"
-              target="blank"
-            >
-              Facebook
-            </a>
-          </div>
-        </div>
-       
-      </div>
-      <div className="home-hr">
-        <hr></hr>
-      </div>
-      <Projects /> */}
-
-
+   
+     <div className="hexbackground">
+    <HexBack/>
       <div className="home-container">
         <div className="home1">
              <h1 style={{marginRight:"6rem"}}>FRONT-</h1>
@@ -81,7 +40,6 @@ const Home = () => {
            
         </div>
 
-      
         <div className="home2">
          <div className="social-link-mobile">
          <a href='https://github.com/anubhavpatel'  target="_blank"><AiFillGithub className='github'/></a>
@@ -90,12 +48,15 @@ const Home = () => {
            
     <a href='https://www.instagram.com/anubhav._patel/' target='_blank'><FaInstagram className='instagram'/></a>
          </div>
+           
+    
+
           <div className="scroll_down">
        <button onClick={scrollToTop}><BsArrowDown style={{color:"white"}} size={35}/></button>
           </div>
-          
+         
         </div>
-
+</div>
       </div>
      <Projects/>
     </>

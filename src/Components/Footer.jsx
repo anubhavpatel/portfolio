@@ -3,11 +3,10 @@ import "../Style/Footer.scss"
 const Footer = () => {
   return (
     <>
-     <hr></hr>
     <div className='footer'>
      
-      <p>© Anubhav Patel 2023</p>
-     <a href="https://mail.google.com" target="blank" title='anubhavpatel6391@gmail.com'> <button>Contact</button></a>
+      <p>© Anubhav Patel <span>2023</span></p>
+     <a href="" target="_blank" title='anubhavpatel6391@gmail.com'> <button>Contact</button></a>
     </div>
     </>
   )
