@@ -38,7 +38,7 @@ const Home = () => {
              MY MIND WANDERS<br/> USING MY KNOWLEDGE AND PASSION FOR <br/>DESIGN AS MY MEDIUM.</p>
              </div>
             <div className="dev_text">
-            <h1  style={{marginLeft:"4rem", color: "red"}}>DEVELOPER</h1>
+            <h1  style={{marginLeft:"0rem", color: "red"}}>DEVELOPER</h1>
             </div>
            
         </div>
@@ -70,7 +70,7 @@ const Home = () => {
              from the dynamic environment and competitive university life define me, and I am looking forward to implementing and polishing
               them in any opportunity that i receive.</p>
         
-      </div>
+      </div> 
       <Skill/>
       <Education/>
      <Projects/>

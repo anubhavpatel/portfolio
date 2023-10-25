@@ -14,7 +14,7 @@ const Education = () => {
 
         <div className='container-t'>
           <div className='logo-t' data-aos="zoom-in"><FaUserGraduate style={{color: "white"}} /></div>
-          <div className='text-box' data-aos="fade-left" data-aos-duration="1500">
+          <div className='text-box'  data-aos="fade-up" data-aos-duration="1500">
             <span className='arrow-t'></span>
             <h3>Bundelkhand Institute of Engineering & Technology, Jhansi </h3>
             <p>2019-2023</p>
@@ -25,8 +25,9 @@ const Education = () => {
         </div>
         <div className='container-t'>
 
-          <div className='logo-t second' data-aos="zoom-in"><RiCodeSSlashFill style={{color: "white"}}/></div>
-          <div className='text-box' data-aos="fade-left" data-aos-duration="1500">
+          <div className='logo-t second'  data-aos="zoom-in"><RiCodeSSlashFill style={{color: "white"}}/></div>
+          <div className='text-box' data-aos="fade-up" data-aos-duration="1500">
+         
             <span className='arrow-t'></span>
             <h3> Rashtriya Inter College Sujanganj, Jaunpur</h3>
             <p>2016-2018</p>
@@ -36,8 +37,8 @@ const Education = () => {
         </div>
         <div className='container-t'>
 
-          <div className='logo-t third' data-aos="zoom-in"></div>
-
+          <div className='logo-t third'  data-aos="zoom-in" ></div>
+          {/* data-aos="zoom-in" */}
         </div>
 
       </div>
