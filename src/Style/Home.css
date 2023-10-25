@@ -31,13 +31,30 @@
     .home1 p{
       font-size: .8rem;
     }
+    .aboutme{
+     padding: 2rem 3rem 2rem 3rem;
+      background-color: rgb(53, 53, 53);
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+     
+      font-family: 'Nunito Sans', sans-serif;
+      color: white;
+      
+    }
+    .aboutme p{
+      font-size: 18px;
+    }
+   
     .home2{
-    margin-top: 3rem;
-    margin-bottom: 1rem;
+     margin-top: 1.5rem;
+  
       display: flex;
       justify-content: space-between;
       flex-direction: column;
-      height: 15rem;
+      height: 9rem;
       align-items: center;
      
     }
@@ -54,7 +71,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-   
+
         animation: MoveUpDown 1s linear infinite;
 
     }   

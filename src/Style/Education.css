@@ -1,0 +1,103 @@
+.timeline-main .edutxt{
+  margin-left: 3rem;
+  color: white;
+  font-weight: 500;
+  font-size: 30px;
+}
+.timeline-main{
+  padding: 2rem 0rem 2rem 0rem;
+  background: linear-gradient(145deg,#1c1b1b,#0c0c0c,#000000);
+}
+.timeline{
+  position: relative;
+ margin: 2rem 2rem 2rem 6rem;
+ 
+}
+.container-t{
+  padding: 10px 40px;
+  position: relative;
+
+
+}
+.text-box h3{
+  color: rgba(255, 255, 255, 0.805);
+}
+.text-box h5{
+  margin-top: 8px;
+  color: rgb(197, 55, 107);
+}
+.text-box p{
+  font-size: 15px;
+  color: rgb(126, 126, 126);
+}
+.text-box{
+  padding: 20px 30px;
+  background-color: rgb(54, 54, 54);
+  position: relative;
+  width: 60%;
+  font-size: 15px;
+}
+ .logo-t{
+ position: absolute;
+ top: 0;
+ left: -20px;
+ z-index: 1;
+ width: 3rem;
+ height: 3rem;
+ border-radius: 50%;
+ border: 7px solid rgb(255, 255, 255);
+ background-color: #43BDB3;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.second{
+  background-color: #2D96F3;
+}
+.third{
+  background-color: #ECD91F;
+}
+.timeline::after{
+  content: '';
+  position: absolute;
+  width: 7px;
+  height: 100%;
+  background: rgb(255, 255, 255);
+  top: 0;
+}
+.arrow-t{
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 0.1rem;
+  z-index: 1;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid rgb(255, 255, 255);
+  left : -10px;
+}
+@media (max-width: 1060px) {
+     .text-box{
+      width: 70%;
+     }
+}
+@media (max-width: 730px) {
+  .text-box{
+   width: 100%;
+  }
+}
+@media (max-width: 500px) {
+ .text-box h3{
+  font-size: 15px;
+ }
+.text-box h5{
+  font-size: 10px;
+}
+.timeline{
+  margin: 2rem 0rem 2rem 2rem ;
+}
+.timeline-main .edutxt{
+  font-size: 25px;
+  margin-left: 1rem;
+}
+}

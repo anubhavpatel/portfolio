@@ -6,6 +6,9 @@ import {BsArrowDown, BsHexagon} from "react-icons/bs"
 import {AiFillGithub, AiFillLinkedin} from "react-icons/ai"
 import {FaFacebook,FaInstagram,FaYoutube} from "react-icons/fa"
 import HexBack from "./HexBack";
+import Education from "./Education";
+import Skill from "./Skill";
+
 
 const Home = () => {
   const scrollToTop = () =>{
@@ -58,6 +61,18 @@ const Home = () => {
         </div>
 </div>
       </div>
+      <div className="aboutme">
+         <h1>About Me</h1>
+         <p>A graduate student in the Department of Information Technology pursuing Bachelor of Technology at
+          Bundelkhand Institute of Engineering & Technology, Jhansi. My interests primarily lie in the areas of Web Development,
+           and I am seeking exciting opportunities related to the same.  I also possess a broad set of technical skills for which I am ready to address some 
+            of technology's greatest challenges and make an impact on millions, if not billions, of users. <br/> <br/>I believe that the skills that i have attained
+             from the dynamic environment and competitive university life define me, and I am looking forward to implementing and polishing
+              them in any opportunity that i receive.</p>
+        
+      </div>
+      <Skill/>
+      <Education/>
      <Projects/>
     </>
   );

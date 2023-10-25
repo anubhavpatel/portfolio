@@ -9,6 +9,7 @@ import Navbar from './Components/Navbar';
 import Contact from './Components/Contact';
 import {IoIosArrowUp} from "react-icons/io";
 import Projects from './Components/Projects';
+import Education from './Components/Education';
 
 function App() {
   
