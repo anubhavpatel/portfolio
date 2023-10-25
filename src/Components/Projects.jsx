@@ -9,8 +9,8 @@ import pro6 from "../assests/bl6.jpg"
 import {BsLink45Deg} from "react-icons/bs"
 import {AiFillGithub} from "react-icons/ai"
 import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
+import 'aos/dist/aos.css'; 
+
 AOS.init();
 const Projects = () => {
   return (

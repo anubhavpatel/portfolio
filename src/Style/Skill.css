@@ -23,6 +23,7 @@
    display: grid;
    justify-content: center;
   row-gap: 2rem;
+  margin-top: 1rem;
    grid-template-columns: 11rem 11rem 11rem 11rem;
 }
 .item{
@@ -84,20 +85,20 @@
   }
   @media (max-width: 480px){
     .skill-container{
-        grid-template-columns: 6rem 6rem;
+        grid-template-columns: 8rem 8rem;
     row-gap: 1rem;
      }
      .item{
-    width: 5rem;
-    height: 6rem;
+    width: 7rem;
+    height: 8rem;
      }
     
      .main-skill-cont p{
         font-size: 1rem;
      }
      .item1 img, .item2 img, .item3 img, .item4 img{
-        width: 2.8rem;
-        height: 2.8rem;
+        width: 3.5rem;
+        height: 3.5rem;
         
      }
     .skillstext{
