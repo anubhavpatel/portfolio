@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import {FaFacebook,FaInstagram,FaYoutube} from "react-icons/fa"
 import {CgMenu} from "react-icons/cg"
-import {Link} from "react-router-dom"
+import {Link, NavLink} from "react-router-dom"
 import {RxCross2} from "react-icons/rx"
 import {AiFillGithub, AiFillLinkedin} from "react-icons/ai"
 
@@ -20,7 +20,7 @@ const Navbar = () => {
      </div>
      
      <div className={showMenu? "menu-mobile" : "menu"}>
-<a href='#' className='menu-cancel' onClick={()=>setShowMenu(!showMenu)}><RxCross2/></a>
+
      <Link to={"/"} className="homelink" onClick={close}>Home</Link>
      <Link to={"/project"} onClick={close} className="homelink" >Projects</Link>
      <Link to={"/contact"} className="homelink" onClick={close}>Contact</Link>
@@ -46,7 +46,7 @@ const Navbar = () => {
         
      </div>
      <div className='menu-icon'>
-          <a href='#' className='menu-btn' onClick={()=>setShowMenu(!showMenu)}><CgMenu/></a>
+          <a href='#' className='menu-btn' onClick={()=>setShowMenu(!showMenu)}>{showMenu?<RxCross2/> : <CgMenu/>}</a>
           
         </div> 
    </nav>

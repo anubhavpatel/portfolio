@@ -6,6 +6,7 @@ import pro3 from "../assests/bl3.PNG"
 import pro4 from "../assests/bl4.PNG"
 import pro5 from "../assests/bl5.png";
 import pro6 from "../assests/bl6.jpg"
+import scaler from "../assests/scaler.png"
 import {BsLink45Deg} from "react-icons/bs"
 import {AiFillGithub} from "react-icons/ai"
 import AOS from 'aos';
@@ -41,7 +42,30 @@ const Projects = () => {
         </div>
       </div>
     </li>
-    
+    <li class="cards_item">
+      <div class="card" data-aos="fade-up">
+        <div class="card_image">
+        <a href='https://scaler-clone-anubhavpatel.vercel.app/' target='_blank'><img  src={scaler} alt="bruteforce" /></a>
+        </div>
+        <div className='btn-democode'>
+         <a href='https://github.com/anubhavpatel' target='_blank'><AiFillGithub size={30}/></a>
+         <a href='https://scaler-clone-anubhavpatel.vercel.app/' target='_blank' className=''><BsLink45Deg size={30}/></a>
+         </div>
+        <div class="card_content">
+        <a href='https://github.com/anubhavpatel' target='_blank'> <h2 class="card_title">Scaler Clone</h2></a> 
+          <div class="card_text">
+            <p> A responsive React JS clone website which contains diffrents type of
+page and topics. A user can login and view course details and purchase them.Utilized HTML, CSS,
+and React.js JavaScript library for frontend development
+            </p>
+            <hr />
+            <p> Utilized <strong>HTML</strong>, <strong>CSS</strong>, and <strong>React.Js</strong> JavaScript library for the frontend implementation
+            <br/>Aighly responsive website for all devices.
+            </p>
+          </div>
+        </div>
+      </div>
+    </li>
     <li class="cards_item">
       <div class="card" data-aos="fade-up">
         <div class="card_image">
@@ -57,7 +81,7 @@ const Projects = () => {
             <p> Developed a real-time responsive chat website using cutting-edge technologies such as React.js and Socket.io
             </p>
             <hr />
-            <p> Server Creation with Socket.io and Integration of Socket.io with React<br/>
+            <p> Server Creation with <strong>Socket.io</strong> and Integration of Socket.io with React<br/>
  A seamless and interactive platform for instant messaging that allows users to communicate in real time
             </p>
           </div>
@@ -81,8 +105,8 @@ const Projects = () => {
    <br/>Implemented efficient data retrieval from APIs using Axios
             </p>
             <hr />
-            <p>  Incorporated Redux Toolkit for state management and Chakra UI for enhanced user interface
-   <br/> Leveraged Rapid API for seamless integration of external services
+            <p>  Incorporated <strong>Redux</strong> Toolkit for state management and <strong>Chakra UI </strong> for enhanced user interface
+   <br/> Leveraged <strong>Rapid API</strong> for seamless integration of external services
             </p>
           </div>
         </div>
@@ -104,7 +128,7 @@ const Projects = () => {
  <br/> A user can add items in cart section and also order to the items
             </p>
             <hr />
-            <p> Utilized HTML, SCSS, and React.js JavaScript library for frontend development
+            <p> Utilized <strong>HTML</strong>, <strong>CSS</strong>, and <strong>React.Js</strong> JavaScript library for frontend development
   <br/> Incorporated Redux Toolkit for state management and Material UI for enhanced user interface
 
 
@@ -125,12 +149,11 @@ const Projects = () => {
         <div class="card_content">
         <a href='https://github.com/anubhavpatel/stackoverflow_clone' target='_blank'> <h2 class="card_title">Stackoverflow Clone</h2></a> 
           <div class="card_text">
-            <p> Developed a responsive React JS cricket website that showcased live scores of various types of matches and 
-            provided comprehensive statistics for matches and players
+            <p> Developed a responsive React JS stackoverflow clone website that contains various type of pages and login register features.
             </p>
             <hr />
             <p> Utilized <strong>HTML</strong>, <strong>CSS</strong>, and <strong>React.Js</strong> JavaScript library for the frontend implementation
-            <br/>Implemented API fetching with axios to retrieve data from the Cricketdata API
+            <br/>
             </p>
           </div>
         </div>
@@ -148,10 +171,10 @@ const Projects = () => {
         <div class="card_content">
         <a href='https://github.com/anubhavpatel/map-ui' target='_blank'> <h2 class="card_title">Map UI</h2></a> 
           <div class="card_text">
-            <p>A responsive React JS Map UI website, Using HTML,SCSS, for frontend with React.js and it is a mapping app, include the following: turfjs,Ant.Design, Redux, OSM
+            <p>A responsive React JS Map UI website, Using HTML,SCSS, for frontend with React.js and it is a mapping app, include the following: <strong>turfjs, Ant.Design, Redux, OSM</strong> 
             </p>
             <hr />
-            <p> khoz k likhte hai
+            <p> 
             </p>
           </div>
         </div>

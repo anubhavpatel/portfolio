@@ -6,7 +6,7 @@
 display: grid;
 grid-template-columns: 10rem 1fr 2fr 1fr 10rem;
  background: linear-gradient(145deg,#0b0c0c,#060606,#424242);
-
+ 
 }
 .logo{
     display: grid;
@@ -27,18 +27,13 @@ grid-template-columns: 10rem 1fr 2fr 1fr 10rem;
     align-items: center;
     font-family: 'Abel', sans-serif;
 
-    
 }
 .menu .homelink{
     text-decoration: none;
 
     color: rgb(255, 255, 255);
 }
-.menu .menu-cancel{
-    display: none;
-    
-   
-}
+
 a:link{
     text-decoration: none;
 }
@@ -96,9 +91,11 @@ grid-column: 2/3;
  }
 
 @media (max-width: 1080px){
+
 .main-nav{
     height: 5rem;
     grid-template-columns: 2rem 2fr 2fr 1fr 2rem;
+    
 }
 .logo , .menu ul, .social-link ul{
     height: 5rem;
@@ -108,6 +105,7 @@ grid-column: 2/3;
     .main-nav{
         height: 5rem;
         grid-template-columns: 2rem 1.5fr 3fr 1.5fr 2rem;
+        
     }
     .logo , .menu ul, .social-link ul{
         height: 5rem;
@@ -125,6 +123,7 @@ grid-column: 2/3;
        .main-nav{
         display: grid;
         grid-template-columns: 2rem 1fr 4rem;
+        
        }
        .menu-icon{
        
@@ -134,7 +133,7 @@ grid-column: 2/3;
         grid: 4/5;
        }
        .menu-mobile{
-        z-index: 2;
+       z-index: 2;
         align-items: center;
         position: absolute;
         display: flex;
@@ -146,19 +145,16 @@ grid-column: 2/3;
         top: 5rem;
         width: 100%;
         
-         
       }
+      
       .menu-mobile .homelink{
          text-decoration: none;
          color: rgb(255, 255, 255);
          margin-top: 2rem;
+         
       }
       .resume{
         margin-top: 2rem;
       }
-      .menu-cancel{
-        color: rgb(255, 255, 255);
-        margin-top: 2rem;
-      }
-
+     
         }

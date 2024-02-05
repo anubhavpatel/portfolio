@@ -4,7 +4,7 @@ import React, {useState} from 'react';
 import Footer from './Components/Footer';
 import Header from './Components/Header';
 import Home from './Components/Home';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Router, Routes, } from 'react-router-dom';
 import Navbar from './Components/Navbar';
 import Contact from './Components/Contact';
 import {IoIosArrowUp} from "react-icons/io";
@@ -47,13 +47,16 @@ function App() {
      style={{display: visible ? 'inline' : 'none'}}  id="myBtn" title="Go to top"><IoIosArrowUp size={30} /></button>
      <Navbar/>
     
+  
     <Routes>
       <Route path="/" element={<Home/>}/>
     
       <Route path="/project" element={<Projects/>}/>
       <Route path="/contact" element={<Contact/>}/>
      <Route path="*" element={<Home/>} />
-    </Routes>
+     </Routes>
+   
+    
     <Footer/>
    
     </div>
