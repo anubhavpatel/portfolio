@@ -9,6 +9,7 @@ import pro6 from "../assests/bl6.jpg"
 import scaler from "../assests/scaler.png"
 import {BsLink45Deg} from "react-icons/bs"
 import {AiFillGithub} from "react-icons/ai"
+import fruits from "../assests/fruits.png"
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 
@@ -159,6 +160,31 @@ and React.js JavaScript library for frontend development
         </div>
       </div>
     </li>
+
+    <li class="cards_item">
+      <div class="card" data-aos="fade-up">
+        <div class="card_image">
+        <a href='https://devtown-assignment-mu.vercel.app/' target='_blank'><img  src={fruits} alt="mapui" /></a>
+        </div>
+        <div className='btn-democode'>
+         <a href='https://github.com/anubhavpatel/devtown-assignment' target='_blank'><AiFillGithub size={30}/></a>
+         <a href='https://devtown-assignment-mu.vercel.app/' target='_blank' className=''><BsLink45Deg size={30}/></a>
+         </div>
+        <div class="card_content">
+        <a href='https://github.com/anubhavpatel/devtown-assignment' target='_blank'> <h2 class="card_title">Assignment Link</h2></a> 
+          <div class="card_text">
+            <p>  <a href='https://devtown-assignment-mu.vercel.app/' target='_blank'> <h3 >1. https://devtown-assignment-mu.vercel.app/</h3></a>
+            <a href='https://car-seller-iota.vercel.app/' target='_blank'> <h3 >2. https://car-seller-iota.vercel.app/</h3></a>
+            <a href='https://analystt-ai-assignment.vercel.app/' target='_blank'> <h3 >3. https://analystt-ai-assignment.vercel.app/</h3></a> 
+            </p>
+            <hr />
+            <p>A responsive React  website, Using HTML,CSS  for frontend with React.js.<br/> It contains functionality of searching fruits by name, sorting with fruits name and prices and responsive pagination. Data coming from <strong>API</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+    </li>
+
     <li class="cards_item">
       <div class="card" data-aos="fade-up">
         <div class="card_image">
@@ -180,6 +206,7 @@ and React.js JavaScript library for frontend development
         </div>
       </div>
     </li>
+    
   </ul>
 </div>
     </div>
